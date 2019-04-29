@@ -14,3 +14,5 @@
 ### 支付宝认证
 
 `static Future<String> zhifubao(ZhifubaoArgs args)`
+
+and so on ...
