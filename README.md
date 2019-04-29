@@ -1,14 +1,16 @@
 # cl_moxie
 
-A new flutter plugin project.
+[moxie sdk](https://login.51datakey.com/login) for flutter.
 
-## Getting Started
+## APIs
+>成功返回null，否则返回错误信息
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.io/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### 运营商认证
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+`static Future<String> carrier(CarrierArgs args) async`
+### 淘宝认证
+
+`static Future<String> taobao(TaobaoArgs args) async`
+### 支付宝认证
+
+`static Future<String> zhifubao(ZhifubaoArgs args)`

@@ -12,11 +12,6 @@ export 'src/zhifubao.dart';
 class ClMoxie {
   static const MethodChannel _channel = const MethodChannel('cl_moxie');
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-
   /// 进行运营商认证，返回值如果是null，表示成功
   static Future<String> carrier(CarrierArgs args) async {
     final String ret = await _channel.invokeMethod('carrier', args.toJson());
