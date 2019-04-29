@@ -1,8 +1,9 @@
 name: cl_moxie
 description: moxie sdk for flutter
 version: 0.0.1
-author:
-homepage:
+author: stanley <houyuqing@hotmail.com>
+homepage: https://github.com/zhihesoft/cl_moxie
+repository: https://github.com/zhihesoft/cl_moxie
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
